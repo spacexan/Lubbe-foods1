@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lubbe Foods</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: #fff7f0;
+        color: #333;
+    }
+
+    header {
+        background: linear-gradient(135deg, #ff4d4d, #ff9900);
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    header h1 {
+        font-size: 42px;
+    }
+
+    header p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 20px;
+        background: white;
+        color: #ff4d4d;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #000;
+        color: white;
+    }
+
+    section {
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #ff4d4d;
+        margin-bottom: 20px;
+    }
+
+    .menu-category {
+        margin-bottom: 30px;
+    }
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background: #fff;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #222;
+        color: white;
+    }
+
+    .floating {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #25D366;
+        color: white;
+        padding: 15px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Lubbe Foods</h1>
+    <p>Lovely food for the whole family</p>
+    <a href="tel:0678120832" class="btn">Call Now</a>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <div class="card">
+        <p><b>Owners:</b> Liezl Lubbe, Rudi Lubbe, Regan Lubbe</p>
+        <p>We are a family-owned mobile kitchen serving fresh and affordable meals.</p>
+        <p><b>Location:</b> Next to Liquorama Blue Bottle Liquors</p>
+        <p>We also offer catering for events and functions. Prices depend on order quantity.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Menu</h2>
+
+    <div class="menu-category">
+        <h3>PLATES</h3>
+        <div class="item"><span>PAP/RICE & STEAK</span><span>R60</span></div>
+        <div class="item"><span>PAP/RICE & BEEF STEW</span><span>R60</span></div>
+        <div class="item"><span>PAP/RICE & CHICKEN STEW</span><span>R50</span></div>
+        <div class="item"><span>PAP/RICE & WORS</span><span>R60</span></div>
+        <div class="item"><span>STEAK, EGG & CHIPS</span><span>R60</span></div>
+    </div>
+
+    <div class="menu-category">
+        <h3>BURGERS & ROLLS</h3>
+        <div class="item"><span>BEEF BURGER</span><span>R50</span></div>
+        <div class="item"><span>BEEF BURGER & CHIPS</span><span>R60</span></div>
+        <div class="item"><span>CHICKEN BURGER</span><span>R45</span></div>
+        <div class="item"><span>CHICKEN BURGER & CHIPS</span><span>R55</span></div>
+        <div class="item"><span>BOEREWORS ROLL</span><span>R40</span></div>
+        <div class="item"><span>CHIP ROLL</span><span>R20</span></div>
+        <div class="item"><span>CHIP & RUSSIAN ROLL</span><span>R35</span></div>
+    </div>
+
+    <div class="menu-category">
+        <h3>CHIPS & RUSSIAN</h3>
+        <div class="item"><span>CHIPS SMALL</span><span>R20</span></div>
+        <div class="item"><span>CHIPS MEDIUM</span><span>R35</span></div>
+        <div class="item"><span>RUSSIAN & CHIPS</span><span>R30</span></div>
+    </div>
+
+    <div class="menu-category">
+        <h3>BREAKFAST</h3>
+        <div class="item"><span>BACON, EGG & CHEESE TOAST</span><span>R35</span></div>
+    </div>
+</section>
+
+<section>
+    <h2>Catering</h2>
+    <div class="card">
+        <p>We provide catering for events, parties, and functions.</p>
+        <p>Pricing depends on the quantity and order size.</p>
+        <a href="tel:0678120832" class="btn">Request Catering Quote</a>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <p><b>Phone:</b> 067 812 0832</p>
+        <p><b>Location:</b> Next to Liquorama Blue Bottle Liquors</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Lubbe Foods | Lovely food for the whole family</p>
+</footer>
+
+<a class="floating" href="https://wa.me/27678120832" target="_blank">
+    WhatsApp
+</a>
+
+</body>
+</html>
